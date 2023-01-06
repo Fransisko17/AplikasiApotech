@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/my_nav"
+    app:startDestination="@id/boarding12">
+    <fragment
+        android:id="@+id/boarding12"
+        android:name="com.example.aplikasiapotech.Boarding1"
+        android:label="fragment_boarding1"
+        tools:layout="@layout/fragment_boarding1" />
+</navigation>
